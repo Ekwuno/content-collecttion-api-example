@@ -2,7 +2,7 @@
 title: "Newsletter Post 2"
 date: 2019-01-01T00:00:00.000Z
 categories: [Newsletter, News]
-summary: "This is the first newsletter post."
+summary: "This is the Second newsletter post."
 ---
 
 # Newsletter Post 2
