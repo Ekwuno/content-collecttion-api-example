@@ -1,16 +1,10 @@
-# Astro Starter Kit: Basics
+# Content collection project example
 
-```
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/withastro/astro/tree/latest/examples/basics?file=%2FREADME.md)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
 
 ## 🚀 Project Structure
 
@@ -23,16 +17,26 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── src/
 │   ├── components/
 │   │   └── Card.astro
+│   ├── content/
+│   │   └── newsletter
+│   │       ├── post-1.md
+│   │       └── post-2.md
+|   ├── config.ts
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
+│       ├── newsletter
+│       │   ├── [slug].astro
 │       └── index.astro
 └── package.json
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+In this porject, astro will create the following routes:
+newsletters: `/newsletter/post-1` and `/newsletter/post-2` which is defined in `src/pages/newsletter/[slug].astro`. The `slug` is the name of the file without the extension.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components. If you are looking to extend Astro's functionality, you can add your own components to `src/components/`.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
@@ -51,4 +55,6 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [Astro's documentation](https://docs.astro.build) or jump into Astro [Discord server](https://astro.build/chat).
+
+You can also checkout the [Astro starter kit on CodeSandbox](https://codesandbox.io/p/sandbox/musing-banach-j1qiqf)
