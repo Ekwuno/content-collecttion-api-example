@@ -4,7 +4,7 @@
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+<img width="1375" alt="Screenshot 2023-02-02 at 14 00 08" src="https://user-images.githubusercontent.com/35943047/216367540-ae2fb9a9-0bc6-4cec-9cbf-3d71ac0b4f28.png">
 
 ## 🚀 Project Structure
 
