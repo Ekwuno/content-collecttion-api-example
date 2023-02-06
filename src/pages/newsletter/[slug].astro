@@ -5,9 +5,9 @@ import Layout from "../../layouts/Layout.astro";
 // This function gets called at build time and generates the paths from the content folder
 export async function getStaticPaths() {
     // Define the colection you are creating pages for
-    const allNewletters = await getCollection("newsletter");
+    const allNewsletters = await getCollection("newsletter");
 
-    return allNewletters.map((newsletter) => {
+    return allNewsletters.map((newsletter) => {
         return {
             params: {slug: newsletter.slug},
             props:{newsletter},
