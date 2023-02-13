@@ -1,6 +1,6 @@
 # Content collection project example
 
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/withastro/astro/tree/latest/examples/basics?file=%2FREADME.md)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/Ekwuno/content-collecttion-api-example/main?file=%2FREADME.md)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
